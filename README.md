@@ -2,7 +2,7 @@
 
 **Follow Boston’s public infrastructure investment—from a citywide budget to a project-level question.**
 
-[Public site](https://boston-builds-budget-explorer.harris2004-wang.chatgpt.site/) · [Collected CSV](data/capital-plan.csv) · [Methodology](docs/data-and-methodology.md) · [Reflection](docs/reflection.md)
+[Public site](https://boston-builds-budget-explorer.harris2004-wang.chatgpt.site/) · [Five-minute video](docs/video-walkthrough.md) · [Collected CSV](data/capital-plan.csv) · [Methodology](docs/data-and-methodology.md) · [Reflection](docs/reflection.md)
 
 Boston Builds is an independent civic budget explorer for MIT 1.125 PS1. It connects Boston’s adopted FY2027–2031 Capital Plan with neighborhood geography so residents and community groups can understand allocations, compare projects, and focus public oversight. It is not an official City of Boston website.
 
@@ -11,12 +11,13 @@ Boston Builds is an independent civic budget explorer for MIT 1.125 PS1. It conn
 | Deliverable | File or page | Contents |
 | --- | --- | --- |
 | Working site | [Public Boston Builds website](https://boston-builds-budget-explorer.harris2004-wang.chatgpt.site/) | Interactive charts, map, comparisons, project explorer, findings, recommendations, and source notes; no sign-in required. |
+| Five-minute narrated demonstration | [Video and transcript](docs/video-walkthrough.md) · [Watch or download MP4](https://raw.githubusercontent.com/harrrisw/mit-1.125-ps1/main/docs/demo/boston-builds-walkthrough.mp4) | Real browser interactions, synthetic English narration, captions, and chapter timestamps. |
 | Collected dataset | [Capital Plan CSV](data/capital-plan.csv) · [Direct CSV download](https://raw.githubusercontent.com/harrrisw/mit-1.125-ps1/main/data/capital-plan.csv) | All 325 records and 31 original API columns, including the API row ID. Opens in Excel or Google Sheets. |
 | One-page data and methodology note | [Read the note](docs/data-and-methodology.md) · [Download the one-page PDF](docs/data-and-methodology.pdf) | Sources, collection, preparation, calculations, geography, and limitations. |
 | Short reflection | [Read the reflection](docs/reflection.md) | What the evidence supports, what it cannot establish, and implications for recommendations. |
 | Field guide | [Data dictionary](docs/data-dictionary.md) | Analysis fields, units, formulas, and retained fields not interpreted by the site. |
 
-This repository contains source code and data, not presentation files.
+The video demonstrates the dashboard, Dorchester filtering, a community-center project, CSV export, neighborhood comparisons, findings, and limitations. Narration is synthetic, and the accompanying transcript provides a text alternative.
 
 ## Problem, users, and decisions
 

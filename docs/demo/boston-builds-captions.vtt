@@ -1,0 +1,237 @@
+WEBVTT
+
+00:00:00.500 --> 00:00:05.741
+Welcome to Boston Builds, a public infrastructure budget explorer.
+This site helps Boston
+
+00:00:05.741 --> 00:00:11.629
+residents and neighborhood groups understand planned investments
+and decide which questions to bring
+
+00:00:11.629 --> 00:00:16.046
+to budget hearings. Instead of reading a long budget document, you
+can move
+
+00:00:16.046 --> 00:00:21.699
+from citywide totals to a particular project, compare
+neighborhoods, and download the underlying
+
+00:00:21.699 --> 00:00:26.880
+records. This demonstration follows that journey. The central
+question is not simply how
+
+00:00:26.880 --> 00:00:31.297
+much money is listed. It is which investment to follow, who is
+responsible,
+
+00:00:31.297 --> 00:00:34.300
+and what information residents should ask for next.
+
+00:00:35.500 --> 00:00:40.549
+The overview contains three hundred twenty five project records
+from Boston's adopted fiscal
+
+00:00:40.549 --> 00:00:45.378
+twenty twenty seven through twenty thirty one capital plan. Their
+lifetime budgets total
+
+00:00:45.378 --> 00:00:50.043
+about four point four seven billion dollars. Reported spending is
+about three hundred
+
+00:00:50.043 --> 00:00:54.873
+ninety four million dollars through fiscal twenty twenty five, and
+seventy eight records
+
+00:00:54.873 --> 00:00:59.921
+are labeled in construction. These indicators measure different
+things. A lifetime budget is
+
+00:00:59.921 --> 00:01:04.531
+not money already spent, and published status is not a live
+construction inspection.
+
+00:01:04.531 --> 00:01:09.032
+The notice below the indicators also flags a discrepancy: the
+City's summary lists
+
+00:01:09.032 --> 00:01:14.026
+three hundred twenty one projects, while the downloaded table
+contains three hundred twenty
+
+00:01:14.026 --> 00:01:14.300
+five.
+
+00:01:15.500 --> 00:01:20.482
+Now I select Dorchester in the neighborhood filter. The dashboard
+updates to twenty
+
+00:01:20.482 --> 00:01:25.584
+five projects with about one hundred eighty four million dollars
+in lifetime budgets.
+
+00:01:25.584 --> 00:01:30.626
+Department bars show how that selected investment is divided. The
+map highlights the
+
+00:01:30.626 --> 00:01:36.449
+source neighborhood, and selecting another mapped neighborhood
+would change the same filter. This
+
+00:01:36.449 --> 00:01:41.731
+map does not identify exact construction sites. The budget table
+has neighborhood labels
+
+00:01:41.731 --> 00:01:47.313
+but no street addresses or coordinates. Citywide and multi
+neighborhood projects are retained
+
+00:01:47.313 --> 00:01:51.635
+in the overall totals, but are not spread across the polygons.
+Below the
+
+00:01:51.635 --> 00:01:56.437
+map, the status chart shows project stages, and the funding chart
+separates City
+
+00:01:56.437 --> 00:02:01.419
+capital, other City funds, grants, and external funds. These
+controls help narrow a
+
+00:02:01.419 --> 00:02:04.300
+question without hiding what each measure means.
+
+00:02:05.500 --> 00:02:09.681
+Next, I reset the filters and search for project identifier C C C
+
+00:02:09.681 --> 00:02:14.312
+two five one six five. This opens the Grove Hall Community Center
+record
+
+00:02:14.312 --> 00:02:19.201
+assigned to Dorchester. Its published scope is to design and
+construct a new
+
+00:02:19.201 --> 00:02:24.090
+community center based on a programming study. The record lists a
+sixty five
+
+00:02:24.090 --> 00:02:29.879
+million dollar lifetime budget, about three point two million
+dollars spent through fiscal
+
+00:02:29.879 --> 00:02:35.025
+twenty twenty five, and an in construction status. It also
+identifies the owning
+
+00:02:35.025 --> 00:02:40.493
+and managing departments and breaks down the funding. These
+details support a precise
+
+00:02:40.493 --> 00:02:45.960
+question: what is the next construction milestone, and when will
+residents receive an
+
+00:02:45.960 --> 00:02:51.235
+update? They do not establish a completion date. Closing the
+details and exporting
+
+00:02:51.235 --> 00:02:55.030
+the filtered C S V gives residents a record they can use in
+
+00:02:55.030 --> 00:02:57.474
+a meeting or examine in a spreadsheet.
+
+00:03:00.500 --> 00:03:05.380
+The comparison panel places two neighborhoods side by side. Here,
+Roxbury has about
+
+00:03:05.380 --> 00:03:10.553
+three hundred fifty seven million dollars in listed project
+budgets, compared with about
+
+00:03:10.553 --> 00:03:15.257
+one hundred eighty four million for Dorchester. I can change the
+first selection
+
+00:03:15.257 --> 00:03:20.019
+to East Boston and see its totals alongside Dorchester. These
+comparisons use the
+
+00:03:20.019 --> 00:03:25.781
+complete snapshot, independently of dashboard filters. They are
+not adjusted for population, asset
+
+00:03:25.781 --> 00:03:30.719
+condition, or resident need. Crucially, about half of all budgets
+belong to citywide
+
+00:03:30.719 --> 00:03:35.305
+or multi neighborhood records. A larger local total therefore does
+not prove a
+
+00:03:35.305 --> 00:03:40.302
+neighborhood receives a fairer share or better services. The
+comparison is a starting
+
+00:03:40.302 --> 00:03:44.300
+point for asking who benefits, not a ranking of neighborhood
+equity.
+
+00:03:45.500 --> 00:03:50.690
+The findings lead to three oversight priorities. Schools and
+Public Works hold about
+
+00:03:50.690 --> 00:03:55.880
+fifty four percent of lifetime budgets. Ask for quarterly cost and
+milestone updates
+
+00:03:55.880 --> 00:04:00.884
+on their largest projects. About fifty point five percent of
+investment spans the
+
+00:04:00.884 --> 00:04:07.310
+city or multiple neighborhoods. Request service areas and
+beneficiary information before comparing local
+
+00:04:07.310 --> 00:04:12.932
+shares. Finally, sixty projects totaling about five hundred fifty
+three million dollars are
+
+00:04:12.932 --> 00:04:17.071
+labeled new project or to be scheduled. Ask for a named owner,
+next
+
+00:04:17.071 --> 00:04:23.003
+decision date, and engagement opportunity. These labels support
+questions, not a conclusion that
+
+00:04:23.003 --> 00:04:24.300
+projects are delayed.
+
+00:04:25.500 --> 00:04:32.788
+The methodology links official sources, dates, definitions, and
+known inconsistencies. Missing addresses, completion
+
+00:04:32.788 --> 00:04:38.379
+evidence, and outcome measures limit what we can conclude. The
+GitHub repository includes
+
+00:04:38.379 --> 00:04:42.588
+the collected C S V, a one page methodology note, and a
+reflection.
+
+00:04:42.588 --> 00:04:47.552
+The public site works on phones and computers. Choose a
+neighborhood, inspect a
+
+00:04:47.552 --> 00:04:53.080
+project, and export a shortlist. Boston Builds makes public
+investment easier to examine
+
+00:04:53.080 --> 00:04:58.609
+while keeping uncertainty visible. Follow the accompanying links
+to explore the site and
+
+00:04:58.609 --> 00:04:59.300
+repository.
