@@ -1,0 +1,13 @@
+{
+  "name": "boston-builds",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boston public infrastructure budget explorer using official adopted FY27–31 project data",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "dev": "node scripts/serve.cjs",
+    "build": "node scripts/build.cjs",
+    "test": "node scripts/test.cjs"
+  },
+  "devDependencies": {"@playwright/test": "^1.58.0"}
+}

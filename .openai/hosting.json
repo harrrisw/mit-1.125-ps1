@@ -1,0 +1,11 @@
+{
+  "project_id": "appgprj_6ab2020f620881919b3ff8d9439e5a42",
+  "framework": "static",
+  "static": {
+    "directory": "dist"
+  },
+  "build": {
+    "command": "npm run build",
+    "output_directory": "dist"
+  }
+}

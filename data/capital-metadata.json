@@ -1,0 +1,173 @@
+{
+  "help": "https://data.boston.gov/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "accrual_periodicity": "R/P1Y",
+    "author": null,
+    "author_email": null,
+    "btype": [
+      "tabular"
+    ],
+    "classification": "",
+    "contact_point": "Office of Budget Management",
+    "contact_point_email": "budget@boston.gov",
+    "contact_point_phone": "",
+    "creator_user_id": "e24707a2-1910-4736-98ba-d7115b3ec0af",
+    "icon_url": "https://patterns.boston.gov/images/global/icons/experiential/building-layer.svg",
+    "id": "bb903d90-eacb-4c42-8c03-e25ede06317a",
+    "isopen": true,
+    "license_id": "odc-pddl",
+    "license_title": "Open Data Commons Public Domain Dedication and License (PDDL)",
+    "license_url": "http://www.opendefinition.org/licenses/odc-pddl",
+    "location": [
+      "all"
+    ],
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2019-04-08T22:00:25.229971",
+    "metadata_modified": "2026-08-03T14:41:18.802346",
+    "modified": "2026-08-03",
+    "name": "capital-budget",
+    "notes": "This data set is the FY27-31 City of Boston Five Year Capital Plan. It is the City\u2019s plan to make critical investments in our shared infrastructure including schools, libraries, community centers, roads, bridges, parks, and playgrounds. This year\u2019s $4.4 Billion plan includes funds supporting school renovations and construction, revitalized parks, roadway safety, civic buildings, and public housing. \r\n",
+    "notes_translated": {
+      "en": "This data set is the FY27-31 City of Boston Five Year Capital Plan. It is the City\u2019s plan to make critical investments in our shared infrastructure including schools, libraries, community centers, roads, bridges, parks, and playgrounds. This year\u2019s $4.4 Billion plan includes funds supporting school renovations and construction, revitalized parks, roadway safety, civic buildings, and public housing. \r\n"
+    },
+    "num_resources": 2,
+    "num_tags": 3,
+    "open": "",
+    "organization": {
+      "id": "e5fd8c8f-79ca-4ac1-87c4-e50b616a8448",
+      "name": "office-of-budget-management",
+      "title": "Office of Budget Management",
+      "type": "organization",
+      "description": "We build and carry out the Mayor\u2019s operating budget and capital plan. Our work helps the City make smart investments, and aims to create a thriving, healthy, and innovative Boston.\r\n\r\n<br/>\r\n<a href=\"https://www.boston.gov/departments/budget\" target=\"_blank\">MORE INFO</a>",
+      "image_url": "2020-01-13-192820.248617budgeticon.svg",
+      "created": "2019-04-03T19:31:17.349134",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "e5fd8c8f-79ca-4ac1-87c4-e50b616a8448",
+    "private": false,
+    "publisher": "Department of Innovation and Technology",
+    "released": "2026-04-08",
+    "source": [],
+    "state": "active",
+    "temporal_from": "2026-07-01",
+    "temporal_notes": {
+      "en": ""
+    },
+    "temporal_to": "2031-06-30",
+    "theme": [
+      "budget"
+    ],
+    "title": "Capital Plan",
+    "title_translated": {
+      "en": "Capital Plan"
+    },
+    "type": "dataset",
+    "url": "",
+    "version": null,
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "ckan_url": "https://data.boston.gov",
+        "created": "2021-08-09T14:25:58.487889",
+        "data_dictionary": [],
+        "datastore_active": true,
+        "datastore_contains_all_records_of_source_file": true,
+        "description": "This data set is the FY27-31 City of Boston Five Year Capital Plan. It is the City\u2019s plan to make critical investments in our shared infrastructure including schools, libraries, community centers, roads, bridges, parks, and playgrounds. This year\u2019s $4.4 Billion plan includes funds supporting school renovations and construction, revitalized parks, roadway safety, civic buildings, and public housing. ",
+        "description_translated": {
+          "en": "This data set is the FY27-31 City of Boston Five Year Capital Plan. It is the City\u2019s plan to make critical investments in our shared infrastructure including schools, libraries, community centers, roads, bridges, parks, and playgrounds. This year\u2019s $4.4 Billion plan includes funds supporting school renovations and construction, revitalized parks, roadway safety, civic buildings, and public housing. "
+        },
+        "format": "CSV",
+        "hash": "03ad7648b618fdffbe42a832204172a5",
+        "id": "c62d666e-27ea-4c03-9cb1-d3a81a1fb641",
+        "ignore_hash": false,
+        "is_data_dict_populated": false,
+        "language": [
+          "en"
+        ],
+        "last_modified": "2026-08-03T14:40:44.190443",
+        "metadata_modified": "2026-08-03T14:40:42.600424",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": null,
+        "name_translated": {
+          "en": "FY27-31 Capital Plan"
+        },
+        "original_url": "https://data.boston.gov/dataset/bb903d90-eacb-4c42-8c03-e25ede06317a/resource/c62d666e-27ea-4c03-9cb1-d3a81a1fb641/download/fy27-31-adopted-capital-plan-open-data-portal.csv",
+        "package_id": "bb903d90-eacb-4c42-8c03-e25ede06317a",
+        "position": 0,
+        "resource_id": "c62d666e-27ea-4c03-9cb1-d3a81a1fb641",
+        "resource_type": null,
+        "set_url_type": false,
+        "size": 102059,
+        "state": "active",
+        "task_created": "2026-08-03 14:40:44.223008",
+        "url": "https://data.boston.gov/dataset/bb903d90-eacb-4c42-8c03-e25ede06317a/resource/c62d666e-27ea-4c03-9cb1-d3a81a1fb641/download/fy27-31-adopted-capital-plan-open-data-portal.csv",
+        "url_type": "upload"
+      },
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2019-04-08T22:02:28.938865",
+        "data_dictionary": [],
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "description": "",
+        "description_translated": {
+          "en": ""
+        },
+        "format": "PDF",
+        "hash": "",
+        "id": "6dc98699-e7fe-454b-8d52-9afb38e31809",
+        "language": [
+          "en"
+        ],
+        "last_modified": "2026-04-08T14:26:35.497304",
+        "metadata_modified": "2026-04-08T15:59:24.842624",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": null,
+        "name_translated": {
+          "en": "FY27-31 Capital Plan Data Dictionary"
+        },
+        "package_id": "bb903d90-eacb-4c42-8c03-e25ede06317a",
+        "position": 1,
+        "resource_type": null,
+        "size": 48475,
+        "state": "active",
+        "url": "https://data.boston.gov/dataset/bb903d90-eacb-4c42-8c03-e25ede06317a/resource/6dc98699-e7fe-454b-8d52-9afb38e31809/download/fy27-31-capital-plan-data-dictionary.pdf",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "budget",
+        "id": "24816ebf-11e7-4a01-bf3b-3fc855794421",
+        "name": "budget",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "capital budget",
+        "id": "92e6ffd5-5414-44dc-8285-11054369aaac",
+        "name": "capital budget",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "infrastructure",
+        "id": "601ce127-da38-4bde-ba57-7b4201a69806",
+        "name": "infrastructure",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "groups": [],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  }
+}
