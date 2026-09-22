@@ -146,19 +146,6 @@ Checks cover totals, map polygons/legend, chart expansion, combined filters, key
 | `scripts/serve.cjs`, `scripts/build.cjs`, `scripts/test.cjs` | Local server, packaging, and browser checks |
 | `.openai/hosting.json` | Existing ChatGPT Site configuration |
 
-## Assessment coverage
-
-| Area | Weight | Evidence |
-| --- | ---: | --- |
-| Purpose and usefulness | 20% | Defined audience, resident guide, shortlist workflow, and oversight questions |
-| Data quality and documentation | 20% | Official sources, archived data, CSV, dates, field guide, reproducibility, and visible discrepancies |
-| Analysis and reasoning | 20% | Budget, funding, status, and geographic analysis; three computed findings; reflection separating description from inference |
-| Functionality and usability | 20% | Tested filtering, details, comparisons, exports, keyboard interactions, and responsive layouts |
-| Visual communication | 10% | Numeric map legend, zero-baseline bars, consistent units, readable labels, and geographic caveats |
-| Recommendations and limitations | 10% | Three evidence-linked actions and explicit limits on location and equity claims |
-
-This documents coverage, not an assigned assessment score.
-
 ## Attribution and reuse
 
 Archived capital dataset metadata identifies the **Open Data Commons Public Domain Dedication and License (PDDL)**. Consult the planning service for geography attribution and terms; do not assume the budget license covers other sources or application code. Credit the City of Boston and Boston Planning for their data. No separate application-code license is included.
