@@ -1,0 +1,13 @@
+# Reflection: what the data supports
+
+[Back to the README](../README.md) · [Methodology](data-and-methodology.md) · [Collected dataset](../data/capital-plan.csv)
+
+Boston Builds makes a public budget easier to question. Its strongest contribution is descriptive: it connects the scale of a project’s budget with its department, funding sources, published stage, and neighborhood label. A resident can identify an investment, inspect its scope, and prepare a specific question instead of relying on an isolated citywide headline.
+
+The data supports three concrete observations. First, Boston Public Schools and Public Works hold **$2.43 billion, or 54.4%**, of the table’s lifetime budgets. Their largest projects are therefore useful starting points for cost and milestone oversight. Second, **50.5% of budgets** belong to citywide or multi-neighborhood records. A local-only comparison omits about half of the plan, so an apparent neighborhood funding gap is not evidence that residents receive fewer benefits. Third, **60 projects totaling $552.8 million** are labeled “New Project” or “To Be Scheduled.” Those labels justify asking about next decisions and engagement opportunities, but they do not establish that work is late.
+
+The most important analytical choice was to keep budgets separate from expenditure and construction status. A large budget is not money already paid, and low reported spending through FY2025 is not evidence of an overrun or a delay in a later plan. Similarly, a neighborhood allocation is not an exact construction location. Keeping these distinctions visible makes the site more useful than presenting a single misleading “progress” percentage.
+
+The source also limits confidence. The City’s narrative project count differs from the downloaded table, and one record’s facility name conflicts with its neighborhood. Preserving and disclosing those problems is more defensible than silently correcting them without verification. It also shows why arithmetic checks, although necessary, cannot guarantee factual accuracy.
+
+The resulting recommendations are deliberately practical: request quarterly milestones for the largest investments, ask for service areas and beneficiaries of shared programs, and seek named owners and next decision dates for unscheduled work. These are oversight priorities supported by the plan, not conclusions about project success or spending efficiency. Stronger claims would require verified addresses, current expenditure and schedule data, asset condition, resident needs, population measures, and outcome evidence. The site offers a starting point for that inquiry rather than a final verdict on Boston’s infrastructure decisions.
