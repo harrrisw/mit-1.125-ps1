@@ -19,4 +19,17 @@ The map uses real planning polygons, with a documented name crosswalk. It does n
 
 ## Validation
 
+Final review against the assessment criteria (September 22, 2026):
+
+| Area | Weight | Evidence and final improvements |
+| --- | --- | --- |
+| Purpose and usefulness | 20% | Resident guide explains the audience, decision, and steps from filtering to an oversight question. |
+| Data quality and documentation | 20% | Archived official sources, collection dates, field definitions, geography crosswalk, unique-ID and funding checks. Source-count discrepancy is visible beside the dashboard. Required descriptive fields validated before snapshot generation. |
+| Analysis and reasoning | 20% | Department allocations, funding composition, status counts, neighborhood comparisons, and three computed citywide findings. Lifetime budgets distinguished from spending; no causal or equity claims based on dollar totals alone. |
+| Site functionality and usability | 20% | Combined filters, search, sorting, pagination, keyboard map selection, dialogs, CSV export, and independent comparisons. Tested at 320, 390, 768 and 1440 pixels. |
+| Visual communication | 10% | Numeric map legend, zero-baseline bars, consistent USD units, larger labels, accessible focus states, and explicit gray/no-match interpretation. |
+| Recommendations and limitations | 10% | Three evidence-linked actions; prominent snapshot and source discrepancy note; detailed missing data, fiscal cutoffs, location uncertainty, and bias discussion. |
+
+This is a coverage review, not an assigned assessment score. Exact construction-site locations, completion verification, and population-adjusted equity analysis remain outside the available data.
+
 `npm install` installs Playwright for browser checks. `npm test` starts a temporary local server and tests desktop/mobile rendering, financial totals, filtering, empty states, project details, comparison, exports, keyboard operation and console errors using installed Microsoft Edge. Set `BROWSER_EXECUTABLE` if Edge is installed elsewhere.

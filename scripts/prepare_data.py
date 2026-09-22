@@ -8,6 +8,8 @@ def n(r, *keys):
     return sum(int(r[k]) for k in keys)
 projects = []
 for r in rows:
+    for key in ['Proj ID','Project_Name','Scope_Of_Work','Department','PM_Department','Project_Status','Neighborhood']:
+        assert isinstance(r[key], str) and r[key].strip(), f'Missing {key}: {r.get("Proj ID")}'
     projects.append(dict(id=r['Proj ID'], name=r['Project_Name'], description=r['Scope_Of_Work'],
         department=r['Department'], manager=r['PM_Department'], status=r['Project_Status'], neighborhood=r['Neighborhood'],
         budget=n(r,'Total_Project_Budget'), spent=n(r,'GO_Expended','OC_Expended','Grant_Expended'),

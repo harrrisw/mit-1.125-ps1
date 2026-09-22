@@ -57,6 +57,7 @@ function mapColor(value,max){if(!value||!max)return '#e4e6e1';const t=Math.sqrt(
 function renderMap(){
   const budgets=Object.fromEntries(group(filtered,'neighborhood'));
   const max=Math.max(0,...Object.entries(budgets).filter(([n])=>!['Citywide','Multiple Neighborhoods'].includes(n)).map(([,v])=>v));
+  document.querySelector('.map-legend').innerHTML=`<span>$0</span><i></i><span>${money(max)}</span><span class="no-data-swatch"></span><span>Zero / no match</span>`;
   const known=new Set(projects.map(p=>p.neighborhood));
   let html='<rect class="inset-box" x="437" y="230" width="126" height="104" rx="5"/><text x="446" y="325" class="map-inset-label">HARBOR ISLANDS · INSET</text>';
   html+=geo.features.map(f=>{const name=f.properties.name,key=mappedName(name),value=budgets[key]||0,matched=known.has(key);return `<path class="map-shape ${$('neighborhood').value===key?'selected':''}" d="${pathData(f,name==='Harbor Islands'?islandProject:project)}" fill="${mapColor(value,max)}" fill-rule="evenodd" data-neighborhood="${esc(key)}" data-display="${esc(name)}" tabindex="${matched?'0':'-1'}" role="${matched?'button':'img'}" aria-label="${esc(name)}: ${matched?fullMoney(value):'no matching budget label'}${name!==key?'; shared budget label '+esc(key):''}" ${matched?'':'aria-disabled="true"'}><title>${esc(name)} · ${matched?fullMoney(value):'No matching budget label'}${name!==key?' (shared '+esc(key)+' total)':''}</title></path>`;}).join('');
@@ -114,4 +115,6 @@ $('export').onclick=()=>{
   $('toast').textContent=`Exported ${filtered.length} project records`;$('toast').style.display='block';setTimeout(()=>$('toast').style.display='none',3500);
 };
 document.querySelectorAll('.header nav a').forEach(a=>a.onclick=()=>{document.querySelectorAll('.header nav a').forEach(n=>n.classList.toggle('active',a===n));});
+const limitations=document.querySelector('.method-details details:last-child');limitations.id='data-limitations';
+$('limitations-link').onclick=()=>{limitations.open=true;};
 render();renderComparison();

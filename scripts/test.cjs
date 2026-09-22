@@ -9,10 +9,14 @@ const server=spawn(process.execPath,['scripts/serve.cjs'],{env:{...process.env,P
  assert.equal(await page.locator('#total-budget').textContent(),'$4.47B');
  assert.equal(await page.locator('#total-spent').textContent(),'$394.3M');
  assert.equal(await page.locator('#construction-count').textContent(),'78');
+ assert.ok(await page.locator('.resident-guide').isVisible());
+ await page.locator('#limitations-link').click();assert.equal(await page.locator('#data-limitations').evaluate(e=>e.open),true);await page.locator('#data-limitations summary').click();
+ assert.equal(await page.locator('.map-legend').textContent(),'$0$356.6MZero / no match');
  assert.equal(await page.locator('#map .map-shape').count(),26);
  assert.equal(await page.locator('#department-chart button').count(),6);
  await page.locator('#all-departments').click();assert.equal(await page.locator('#department-chart button').count(),15);await page.locator('#all-departments').click();
  await page.selectOption('#neighborhood','Dorchester');assert.equal(await page.locator('#total-projects').textContent(),'25');assert.equal(await page.locator('#total-budget').textContent(),'$183.8M');
+ const findings=await page.locator('#insight-cards').textContent();assert.ok(findings.includes('50.5%'));assert.ok(findings.includes('$552.8M'));
  await page.selectOption('#status','In Construction');const expected=await page.evaluate(()=>BOSTON_DATA.projects.filter(p=>p.neighborhood==='Dorchester'&&p.status==='In Construction').length);assert.equal(Number(await page.locator('#total-projects').textContent()),expected);
  await page.locator('#reset').click();
  await page.locator('#map [data-display="Roxbury"]').focus();await page.keyboard.press('Enter');assert.equal(await page.locator('#neighborhood').inputValue(),'Roxbury');assert.equal(await page.locator('#total-projects').textContent(),'28');
@@ -23,6 +27,6 @@ const server=spawn(process.execPath,['scripts/serve.cjs'],{env:{...process.env,P
  await page.selectOption('#neighborhood','Bay Village');const downloadEvent=page.waitForEvent('download');await page.locator('#export').click();const download=await downloadEvent;const contents=fs.readFileSync(await download.path(),'utf8');assert.ok(contents.includes('Bay Village'));assert.equal(contents.trim().split('\r\n').length,4);
  await page.locator('#reset').click();await page.locator('#overview').scrollIntoViewIfNeeded();await page.evaluate(()=>scrollTo(0,0));
  fs.mkdirSync('artifacts',{recursive:true});await page.screenshot({path:'artifacts/desktop.png',fullPage:true});
- for(const width of [390,768]){await page.setViewportSize({width,height:844});await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:`artifacts/mobile-${width}.png`,fullPage:true});const overflow=await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth&&!e.closest('.table-scroll')).map(e=>[e.tagName,e.className,e.getBoundingClientRect().right]));assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`Horizontal overflow at ${width}px: ${JSON.stringify(overflow)}`);}
+ for(const width of [320,390,768]){await page.setViewportSize({width,height:844});await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:`artifacts/mobile-${width}.png`,fullPage:true});const overflow=await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth&&!e.closest('.table-scroll')).map(e=>[e.tagName,e.className,e.getBoundingClientRect().right]));assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`Horizontal overflow at ${width}px: ${JSON.stringify(overflow)}`);}
  assert.deepEqual(errors,[]);console.log('PASS: data totals, 26 map polygons, chart expansion, combined filters, keyboard map selection, source-quality detail, empty state, pagination, comparison, CSV contents, desktop and mobile overflow, no browser errors.');
 }finally{if(browser)await browser.close();server.kill();}})().catch(e=>{console.error(e);process.exitCode=1;});
